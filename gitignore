@@ -1,0 +1,51 @@
+# IR-5 Project — .gitignore
+# Copyright (c) 2026 Branko Radinić / PZMHS
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+
+# Virtualna okruženja
+venv/
+env/
+.env
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Podaci i outputi (ne idu u repozitorij)
+outputs/
+data/raw/
+data/sensitive/
+*.gz
+*.json.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Lokalne konfiguracije
+config.local.py
+secrets.py
+*.env.local
+
+# Log datoteke
+*.log
+logs/
+
+# Privremene datoteke
+tmp/
+temp/
+*.tmp

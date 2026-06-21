@@ -1,0 +1,9 @@
+# IR-5 v4.0 - Peace Early Warning System
+# Copyright (c) 2026 Branko Radinić / PZMHS
+# Ovisnosti projekta
+
+streamlit>=1.32.0
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.2.0
+fpdf2>=2.7.0
